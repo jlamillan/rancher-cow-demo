@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: docker pull phx.ocir.io/stevengreenberginc/sauron-developers/jesse.millan/rancher-demo:latest
+          image: phx.ocir.io/stevengreenberginc/sauron-developers/jesse.millan/rancher-demo:latest
           env:
             - name: COW_COLOR
               value: "green"
